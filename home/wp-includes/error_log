@@ -1,0 +1,56 @@
+[17-Dec-2013 18:12:06 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/rss.php on line 19
+[17-Dec-2013 18:12:06 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/post.php on line 165
+[17-Dec-2013 18:12:06 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/kses.php on line 1393
+[17-Dec-2013 18:12:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_filter() in /home/kompetis/public_html/home/wp-includes/user.php on line 71
+[17-Dec-2013 18:12:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function is_admin() in /home/kompetis/public_html/home/wp-includes/vars.php on line 20
+[17-Dec-2013 18:12:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_shortcode() in /home/kompetis/public_html/home/wp-includes/media.php on line 611
+[17-Dec-2013 18:12:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/theme.php on line 588
+[17-Dec-2013 18:12:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function is_main_site() in /home/kompetis/public_html/home/wp-includes/update.php on line 591
+[17-Dec-2013 18:12:07 Asia/Jakarta] PHP Fatal error:  Call to undefined function feed_content_type() in /home/kompetis/public_html/home/wp-includes/feed-rss.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/taxonomy.php on line 121
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function feed_content_type() in /home/kompetis/public_html/home/wp-includes/feed-rdf.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function feed_content_type() in /home/kompetis/public_html/home/wp-includes/feed-atom.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_filter() in /home/kompetis/public_html/home/wp-includes/default-filters.php on line 17
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Class 'WP_Widget' not found in /home/kompetis/public_html/home/wp-includes/default-widgets.php on line 14
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/kompetis/public_html/home/wp-includes/class.wp-styles.php on line 19
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Class 'WP_Dependencies' not found in /home/kompetis/public_html/home/wp-includes/class.wp-scripts.php on line 19
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Class 'Walker' not found in /home/kompetis/public_html/home/wp-includes/comment-template.php on line 1474
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function feed_content_type() in /home/kompetis/public_html/home/wp-includes/feed-atom-comments.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/functions.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/option.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/functions.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kompetis/public_html/home/wp-includes/functions.php on line 8
+[17-Dec-2013 18:12:08 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/canonical.php on line 530
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/admin-bar.php on line 40
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function feed_content_type() in /home/kompetis/public_html/home/wp-includes/feed-rss2.php on line 8
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Warning:  require_once(ABSPATHWPINC/class-simplepie.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/class-feed.php on line 4
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class-simplepie.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kompetis/public_html/home/wp-includes/class-feed.php on line 4
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_filter() in /home/kompetis/public_html/home/wp-includes/shortcodes.php on line 388
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/ms-settings.php on line 14
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/ms-load.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/ms-settings.php on line 14
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/ms-load.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kompetis/public_html/home/wp-includes/ms-settings.php on line 14
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/ms-functions.php on line 1748
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/class-snoopy.php on line 6
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_filter() in /home/kompetis/public_html/home/wp-includes/post-formats.php on line 170
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Class 'Walker' not found in /home/kompetis/public_html/home/wp-includes/post-template.php on line 993
+[17-Dec-2013 18:12:09 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_filter() in /home/kompetis/public_html/home/wp-includes/class-wp-embed.php on line 20
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/class-simplepie.php on line 5
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/class-simplepie.php on line 5
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kompetis/public_html/home/wp-includes/class-simplepie.php on line 5
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Class 'Walker' not found in /home/kompetis/public_html/home/wp-includes/nav-menu-template.php on line 17
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_filter() in /home/kompetis/public_html/home/wp-includes/ms-default-filters.php on line 17
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/ms-default-constants.php on line 151
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/author-template.php on line 453
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Class 'IXR_Server' not found in /home/kompetis/public_html/home/wp-includes/class-wp-xmlrpc-server.php on line 22
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/registration.php on line 7
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/script-loader.php on line 25
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Warning:  require(ABSPATHWPINC/class.wp-dependencies.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/kompetis/public_html/home/wp-includes/script-loader.php on line 25
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required 'ABSPATHWPINC/class.wp-dependencies.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/kompetis/public_html/home/wp-includes/script-loader.php on line 25
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/rss-functions.php on line 8
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/kompetis/public_html/home/wp-includes/general-template.php on line 1334
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Class 'Walker' not found in /home/kompetis/public_html/home/wp-includes/category-template.php on line 767
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function feed_content_type() in /home/kompetis/public_html/home/wp-includes/feed-rss2-comments.php on line 8
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function is_robots() in /home/kompetis/public_html/home/wp-includes/template-loader.php on line 28
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Class 'IXR_Client' not found in /home/kompetis/public_html/home/wp-includes/class-wp-http-ixr-client.php on line 9
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/kompetis/public_html/home/wp-includes/class-wp-image-editor-gd.php on line 17
+[17-Dec-2013 18:12:10 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/registration-functions.php on line 7
+[17-Dec-2013 18:12:11 Asia/Jakarta] PHP Fatal error:  Class 'WP_Image_Editor' not found in /home/kompetis/public_html/home/wp-includes/class-wp-image-editor-imagick.php on line 17

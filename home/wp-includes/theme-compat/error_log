@@ -1,0 +1,5 @@
+[17-Dec-2013 18:12:27 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/theme-compat/footer.php on line 10
+[17-Dec-2013 18:12:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/theme-compat/header.php on line 10
+[17-Dec-2013 18:12:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/theme-compat/sidebar.php on line 10
+[17-Dec-2013 18:12:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/theme-compat/comments.php on line 10
+[17-Dec-2013 18:12:28 Asia/Jakarta] PHP Fatal error:  Call to undefined function _deprecated_file() in /home/kompetis/public_html/home/wp-includes/theme-compat/comments-popup.php on line 10

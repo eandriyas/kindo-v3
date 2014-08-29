@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^pasang\.kompetisiindonesia\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.pasang\.kompetisiindonesia\.com$
+RewriteRule ^/?$ "http\:\/\/kompetisiindonesia\.com\/pasang\/" [R=301,L]
+

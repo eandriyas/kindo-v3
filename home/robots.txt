@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: wp-admin/
+Disallow: wp-includes/
+
+Sitemap: http://kompetisiindonesia.com/home/sitemap.xml.gz
+Sitemap: http://kompetisiindonesia.com/home/sitemap.xml

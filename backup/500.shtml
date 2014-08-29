@@ -1,0 +1,5 @@
+<!--#echo var="REDIRECT_STATUS" -->
+<?php header("http://www.kompetisiindonesia.com"); ?>
+<!-- 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+--> 

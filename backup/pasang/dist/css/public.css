@@ -1,0 +1,103 @@
+@font-face {
+	font-family: ubuntu;
+	src: url(../fonts/Ubuntu-R.ttf);
+}
+
+html {
+	font-family: ubuntu;
+}
+
+nav {
+
+}
+
+nav a {
+	color : #000;
+	font-size: 11px
+}
+
+ul.menu{
+	list-style: none;
+}
+
+.header-link{
+	height : 40px;
+}
+
+.header-link li{
+	float :right;
+	padding:10px;
+}
+
+.header-link li a {
+	color : #000;
+}
+
+.header-img {
+	background-image: url("images/ki-big-logo.png");
+	height : 40px;
+	width:194px;
+	background-repeat: no-repeat;
+}
+
+.pasang-menu {
+	padding : 10px;
+	width : 220px;
+	height: 220px
+}
+
+.pasang-menu:hover{
+	background-color: rgb(233, 233, 233);
+}
+
+/*default*/
+
+section.line1{
+	background-color: rgb(233, 233, 233);
+}
+
+section.line2{
+	display: none;
+	background-color: rgb(233, 233, 233);
+	padding: 100px;
+}
+
+section.line3{
+	display: none;
+	background-color: rgb(233, 233, 233);
+	padding: 100px;
+}
+
+.atau {
+	color:#b3b3b3;
+	margin : 80px 0 0 0;
+}
+
+
+@media only screen and (min-width:768px) and (max-width:999px){
+	#arrow1, #arrow2, #arrow3{
+		display: none;
+	}
+
+	.atau {
+		margin:10px;		
+	}
+}
+@media only screen and (max-width:767px){
+	#arrow1, #arrow2, #arrow3{
+		display: none;
+	}
+
+	.atau {
+		margin:10px;
+	}
+}
+@media only screen and (max-width:479px){
+	#arrow1, #arrow2, #arrow3{
+		display: none;
+	}
+	
+	.atau {
+		margin:10px;
+	}
+}

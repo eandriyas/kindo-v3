@@ -1,0 +1,14 @@
+[17-Dec-2013 18:12:23 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.tag.id3v1.php on line 18
+[17-Dec-2013 18:12:23 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio.mp3.php on line 25
+[17-Dec-2013 18:12:23 Asia/Jakarta] PHP Fatal error:  Class 'getid3_lib' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio.ogg.php on line 16
+[17-Dec-2013 18:12:23 Asia/Jakarta] PHP Fatal error:  Class 'getid3_lib' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.tag.id3v2.php on line 16
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.tag.lyrics3.php on line 18
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_lib' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio-video.asf.php on line 16
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio-video.flv.php on line 71
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio.dts.php on line 21
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio.ac3.php on line 18
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.tag.apetag.php on line 17
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_lib' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio.flac.php on line 17
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_lib' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio-video.riff.php on line 25
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_handler' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio-video.matroska.php on line 216
+[17-Dec-2013 18:12:24 Asia/Jakarta] PHP Fatal error:  Class 'getid3_lib' not found in /home/kompetis/public_html/home/wp-includes/ID3/module.audio-video.quicktime.php on line 17
