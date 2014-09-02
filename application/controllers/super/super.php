@@ -23,7 +23,12 @@ class super extends base {
 	//tampilan halaman utama
 	public function dashboard(){
 		
-		$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('kompetisi').className = 'list-group-item active';document.getElementById('request').className = 'list-group-item';document.getElementById('request').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		//ADMIN OR MODERATOR
+		if($this->session->userdata('level')=='moderator'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('kompetisi').className = 'list-group-item active';document.getElementById('request').className = 'list-group-item';document.getElementById('request').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		} else if($this->session->userdata('level') == 'admin'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('kompetisi').className = 'list-group-item active';document.getElementById('request').className = 'list-group-item';document.getElementById('request').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		}		
 		$data['main_kat'] = $this->m_kompetisi->show_main_kat_by_id();
 		//pagination setup
 		$this->load->library('pagination');
@@ -48,7 +53,6 @@ class super extends base {
 				// $config['total_rows'] = $this->m_super->count_draft(); //total rows untuk kompetisi yang draft$config['uri_segment'] = 4;
 				$uri = $this->uri->segment(4);
 				$this->pagination->initialize($config);
-
 				if(isset($_GET['per_page'])) {
 					if($_GET['per_page'] == '') { 
 						$uri = 0;
@@ -58,13 +62,11 @@ class super extends base {
 				} else {
 					$uri = 0;
 				}
-
 				if($config['total_rows'] < 20) {
 					$data['page'] = 1;
 				} else {
 					$data['page'] = $this->pagination->create_links();
 				}
-
 				//end of pagination set up
 				$data['view'] = $this->m_super->posted($config['per_page'],$uri); //data yang ditampilkan
 				$this->superdisplay('super/dashboard', $data);
@@ -109,7 +111,12 @@ class super extends base {
 
 	//tampilan halaman request kompetisi
 	public function request(){
-		$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('moderator').className = 'list-group-item';document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request').className = 'list-group-item active';document.getElementById('request2').className = 'list-group-item';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		//ADMIN OR MODERATOR
+		if($this->session->userdata('level')=='moderator'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request').className = 'list-group-item active';document.getElementById('request2').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		} else if($this->session->userdata('level') == 'admin'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('moderator').className = 'list-group-item';document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request').className = 'list-group-item active';document.getElementById('request2').className = 'list-group-item';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		}		
 		//pagination set up
 		$this->load->library('pagination');
 		$config['per_page'] = 20;
@@ -216,7 +223,12 @@ class super extends base {
 
 	//tampilan request poster / link
 	public function request2(){
-		$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('moderator').className = 'list-group-item';document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item active';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		//ADMIN OR MODERATOR
+		if($this->session->userdata('level')=='moderator'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item active';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		} else if($this->session->userdata('level') == 'admin'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('moderator').className = 'list-group-item';document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item active';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item';document.getElementById('logout').className = 'list-group-item';})</script>";
+		}
 		//pagination
 		$this->load->library('pagination');
 		$config['per_page'] = 20;
@@ -470,7 +482,12 @@ class super extends base {
 
 	//tampilan halaman post
 	public function post(){
-		$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('moderator').className = 'list-group-item';document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item';document.getElementById('request').className = 'list-group-item ';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item active';document.getElementById('logout').className = 'list-group-item';})</script>";
+		//ADMIN OR MODERATOR
+		if($this->session->userdata('level')=='moderator'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item';document.getElementById('request').className = 'list-group-item ';document.getElementById('post').className = 'list-group-item active';document.getElementById('logout').className = 'list-group-item';})</script>";
+		} else if($this->session->userdata('level') == 'admin'){
+			$data['script2'] = "<script type='text/javascript'>$(document).ready(function(){document.getElementById('moderator').className = 'list-group-item';document.getElementById('kompetisi').className = 'list-group-item';document.getElementById('request2').className = 'list-group-item';document.getElementById('request').className = 'list-group-item ';document.getElementById('user').className = 'list-group-item';document.getElementById('post').className = 'list-group-item active';document.getElementById('logout').className = 'list-group-item';})</script>";
+		}		
 		//pagination set up
 		$this->load->library('pagination');
 		$config['per_page'] = 20;

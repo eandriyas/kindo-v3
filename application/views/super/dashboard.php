@@ -1,11 +1,11 @@
 <script src="//tinymce.cachefly.net/4.0/tinymce.min.js"></script>
 <script type='text/javascript'>
-	$(document).ready(function(){
-		document.getElementById('kompetisi').className = 'list-group-item active';
-		document.getElementById('request').className = 'list-group-item';
-		document.getElementById('user').className = 'list-group-item';
-		document.getElementById('post').className = 'list-group-item';
-	})
+	// $(document).ready(function(){
+	// 	document.getElementById('kompetisi').className = 'list-group-item active';
+	// 	document.getElementById('request').className = 'list-group-item';
+	// 	document.getElementById('user').className = 'list-group-item';
+	// 	document.getElementById('post').className = 'list-group-item';
+	// })
 
 	function loadsubkat(){
 		$('#loading').show();
